@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\_activity\_programming\_projects\_sushi_calc\window.ui'
+# Form implementation generated from reading ui file 'D:\_activity\_programming\_projects\SushiCalc\window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.0
 #
@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(262, 299)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\_activity\\_programming\\_projects\\_sushi_calc\\Favourite2.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("D:\\_activity\\_programming\\_projects\\SushiCalc\\Favourite2.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -70,13 +70,13 @@ class Ui_MainWindow(object):
         self.pbn_reset = QtWidgets.QPushButton(self.centralwidget)
         self.pbn_reset.setGeometry(QtCore.QRect(10, 120, 111, 61))
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\_activity\\_programming\\_projects\\_sushi_calc\\Interdit.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("Interdit.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pbn_reset.setIcon(icon1)
         self.pbn_reset.setObjectName("pbn_reset")
         self.pbn_calc = QtWidgets.QPushButton(self.centralwidget)
         self.pbn_calc.setGeometry(QtCore.QRect(10, 190, 111, 61))
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\_activity\\_programming\\_projects\\_sushi_calc\\Tips.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("Tips.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pbn_calc.setIcon(icon2)
         self.pbn_calc.setObjectName("pbn_calc")
         MainWindow.setCentralWidget(self.centralwidget)

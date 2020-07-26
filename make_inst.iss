@@ -43,11 +43,11 @@ DefaultDirName={pf}\{#Name}
 DefaultGroupName={#Name}
 
 ; Каталог, куда будет записан собранный setup и имя исполняемого файла
-OutputDir=D:\_activity\_programming\_projects\_sushi_calc\inst
+OutputDir=D:\_activity\_programming\_projects\SushiCalc\_inst
 OutputBaseFileName=SushiCalcInstaller
 
 ; Файл иконки
-SetupIconFile=D:\_activity\_programming\_projects\_sushi_calc\Favourite2.ico
+SetupIconFile=D:\_activity\_programming\_projects\SushiCalc\Favourite2.ico
 
 ; Параметры сжатия
 Compression=lzma
@@ -66,10 +66,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 
 ; Исполняемый файл
-Source: "D:\_activity\_programming\_projects\_sushi_calc\dist\SushiCalc\SushiCalc.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\_activity\_programming\_projects\SushiCalc\_dist\SushiCalc\SushiCalc.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Прилагающиеся ресурсы
-Source: "D:\_activity\_programming\_projects\_sushi_calc\dist\SushiCalc\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\_activity\_programming\_projects\SushiCalc\_dist\SushiCalc\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ;------------------------------------------------------------------------------
 ;   Указываем установщику, где он должен взять иконки
